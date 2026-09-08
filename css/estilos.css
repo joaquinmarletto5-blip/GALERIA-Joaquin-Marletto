@@ -1,0 +1,218 @@
+body {
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(246, 244, 244) ;
+}
+
+img {
+    max-width: 100%;
+}
+h1 {
+    text-align: start;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #1E462F;
+    padding: 0.8rem;
+}
+
+ul {
+
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+}
+
+ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0.5rem;
+}
+
+ul li a:hover {
+    background-color: aliceblue;
+    color: #1E462F;
+}
+
+main {
+    background-color: rgb(246, 244, 244);
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+
+footer {
+    background-color: #1E462F;
+}
+
+footer p {
+    font-size: 1.5rem;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: aliceblue;
+    text-align: center;
+    padding: 2rem;
+}
+
+.seccion-clubes {
+    justify-content: center;
+    display: flex;
+    margin-top: 4rem;
+    gap: 2rem;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero img {
+    max-width: 75%;
+    border-radius: 1rem;
+}
+
+.hero .contenedor {
+    max-width: 25%;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    border: 0.3rem solid #1E462F;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+article {
+    align-items: center;
+    padding: 1rem;
+    border: 3px solid black;
+    border-radius: 1rem;
+    max-width: 20%;
+    text-align: center;
+}
+
+article p {
+    max-width: 100%;
+}
+
+article img {
+    border-radius: 1rem;
+    max-width: 100%;
+}
+
+article a {
+    text-decoration: none;
+    color: black;
+}
+
+article:hover {
+    background-color: #fff700;
+}
+
+.moron-hero img {
+    width: 100%;
+}
+.main-equipos {
+    padding: 0%;
+}
+.principal-moron{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.principal-moron img{
+    max-width: 20%;
+}
+.seccion-particular{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+
+}
+.seccion-particular p{
+    max-width: 100%;
+    margin-top: 0%;
+}
+.seccion-particular h1,h2{
+    margin-top: 0%;
+    padding: 0%;
+}
+.seccion-particular h1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.titulo-galeria{
+    text-align: center;
+    margin-top: 2rem;
+}
+.contenedor-invisible{
+    display: flex;
+    max-width: 100%;
+    gap:10%
+}
+.primer-div{
+    max-width: 45%;
+}
+.segundo-div{
+    max-width: 45%;
+}
+.segundo-div img{
+    border: 1px solid black;
+}
+@media (max-width: 768PX)
+{
+    .nav-links{
+        flex-direction: column;
+        text-align: center;
+        padding-left: 0%;
+    }
+    nav{
+        width: 100%;
+        padding: 0%;
+    }
+    .contenedor-invisible{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .primer-div{
+        max-width: 100%;
+    }
+    .segundo-div{
+        max-width: 100%;
+    }
+    .principal-moron{
+        flex-direction: column;
+    }
+    .principal-moron img{
+    max-width: 100%;
+    }
+    .hero img{
+        max-width: 100%;
+    }
+    .hero{
+        flex-direction: column;
+        gap:2rem;
+    }
+    .hero .contenedor{
+        max-width: 100%;
+        margin-left: 0rem;
+        margin-right: 0%;
+    }
+    .primer-titulo{
+        text-align: center;
+    }
+    .contenedor h2{
+        text-align: center; 
+    }
+    .seccion-clubes{
+        flex-direction: column;
+    }
+    .seccion-clubes article{
+        max-width: 100%;
+    }
+}
